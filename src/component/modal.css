@@ -1,0 +1,27 @@
+.modal {
+    background-color: rgba(10,10,10,0.7);
+    height: 83.5vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    padding-top: 130px;
+}
+
+.modal-content {
+    background-color: white;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 3em 7em;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1em;
+    align-items: center;
+}
+
+.modal-content input {
+    width: 20em;
+}
+
+.modal-content button {
+    width: 13em;
+}
